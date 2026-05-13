@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# PowerShell
+*.psm1.bak
+
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+credentials.json
+azure-creds.json
+aws-credentials
+.aws/
+
+# Output / evidence
+out/
+findings/
+*.ndjson
+*.sarif
+!sample.ndjson
+
+# Logs
+*.log
