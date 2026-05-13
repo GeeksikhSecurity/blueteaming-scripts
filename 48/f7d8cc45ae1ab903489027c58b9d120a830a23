@@ -1,0 +1,58 @@
+.kiro/specs/operational-discipline/design.md
+  s_aa03d80e6d6474::t_0de5b5ae6abaca 1-148
+notes/operational-discipline-manifesto.md
+  s_aa03d80e6d6474::t_67e16436b2add7 1-71
+.kiro/specs/operational-discipline/tasks.md
+  s_aa03d80e6d6474::t_8603a644241350 1-67
+.kiro/specs/operational-discipline/requirements.md
+  s_aa03d80e6d6474::t_38553d4f287754 1-145
+LICENSE
+  s_aa03d80e6d6474::t_5b65a367074003 1-21
+python/requirements.txt
+  s_aa03d80e6d6474::t_3775d43ca55e20 1-9
+python/github_supply_chain/action_pinning_audit.py
+  s_aa03d80e6d6474::t_e877d15724f981 1-151
+powershell/graph/Audit-OAuthConsents.ps1
+  s_aa03d80e6d6474::t_b163bec508c926 1-102
+powershell/graph/Find-StaleEntraAccounts.ps1
+  s_aa03d80e6d6474::t_22c274bbe99761 1-86
+powershell/graph/Find-MfaGaps.ps1
+  s_aa03d80e6d6474::t_e076cae6111f44 1-85
+powershell/graph/Audit-PrivilegedRoles.ps1
+  s_aa03d80e6d6474::t_c2eabadbdfe3ed 1-104
+.gitignore
+  s_aa03d80e6d6474::t_b35fd97ffed1de 1-16,18-41
+  s_aa03d80e6d6474::t_76aa4c148094b6 17
+notes/detection-engineering-ideas.md
+  s_aa03d80e6d6474::t_ea3ca59ceac4ef 1-90
+python/github_supply_chain/branch_protection_audit.py
+  s_aa03d80e6d6474::t_d7986a5547dd5d 1-106
+python/common/finding.py
+  s_aa03d80e6d6474::t_3e86a1fa4b3bad 1-60
+README.md
+  s_aa03d80e6d6474::t_7fc79cada7d15b 1-69
+python/aws/iam_hygiene.py
+  s_aa03d80e6d6474::t_415ce7265f1fe8 1-150
+python/azure/defender_recommendations.py
+  s_aa03d80e6d6474::t_433b39daf1ea5b 1-123
+python/aws/s3_public_exposure.py
+  s_aa03d80e6d6474::t_d5596a20f6d85f 1-120
+python/azure/rbac_classic_admins.py
+  s_aa03d80e6d6474::t_a015f2be149089 1-149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "48f7d8cc45ae1ab903489027c58b9d120a830a23",
+  "prompts": {},
+  "sessions": {
+    "s_aa03d80e6d6474": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d391d6c6-61b6-4e21-bb50-3c43e1edbc16",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "GeeksikhSecurity <gurvinder@sayvainc.com>"
+    }
+  }
+}
