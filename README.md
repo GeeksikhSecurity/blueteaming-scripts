@@ -1,5 +1,7 @@
 # blueteaming-scripts
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/GeeksikhSecurity/blueteaming-scripts/badge)](https://securityscorecards.dev/viewer/?uri=github.com/GeeksikhSecurity/blueteaming-scripts) [![Security Policy](https://img.shields.io/badge/security-policy-blue)](https://github.com/GeeksikhSecurity/blueteaming-scripts/security/policy)
+
 Detection engineering pack targeting the failure modes that cause the vast majority of breaches: **misconfigurations, unpatched systems, third-party risk, identity mismanagement, flat networks, and poor segmentation.**
 
 > Over 90% of security incidents trace back to the same root cause: lack of operational discipline.
