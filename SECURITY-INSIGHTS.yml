@@ -23,21 +23,21 @@ security-artifacts:
   self-assessment:
     self-assessment-created: false
 security-testing:
-  - tool-type: scorecard
-    tool-name: 'OpenSSF Scorecard'
-    tool-url: 'https://github.com/ossf/scorecard'
+  - name: 'OpenSSF Scorecard'
+    type: other
+    url: 'https://github.com/ossf/scorecard'
+    rulesets:
+      - default
     integration:
-      ad-hoc: false
+      adhoc: false
       ci: true
-      before-release: false
-security-contacts:
-  - type: email
-    value: security@geeksikh.com
-    primary: true
+      release: false
+    results: {}
+    comment: 'Scorecard type is ''other'' — the security-insights-spec tool-type enum (SCA/SAST/container/secret/fuzzing/other) has no ''scorecard'' value.'
 vulnerability-reporting:
   accepts-vulnerability-reports: true
-  email-contact: security@geeksikh.com
   security-policy: 'https://github.com/GeeksikhSecurity/blueteaming-scripts/blob/main/SECURITY.md'
   bug-bounty-available: false
+  comment: 'No email contact published — this repo reports vulnerabilities exclusively via GitHub Security Advisories (see security-policy).'
 dependencies:
   third-party-packages: true
