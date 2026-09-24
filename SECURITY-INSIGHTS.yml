@@ -28,7 +28,7 @@ security-testing:
     rulesets:
       - default
     integration:
-      adhoc: false
+      adhoc: true
       ci: true
       release: false
     results: {}
@@ -38,5 +38,3 @@ vulnerability-reporting:
   security-policy: 'https://github.com/GeeksikhSecurity/blueteaming-scripts/blob/main/SECURITY.md'
   bug-bounty-available: false
   comment: 'No email contact published — this repo reports vulnerabilities exclusively via GitHub Security Advisories (see security-policy).'
-dependencies:
-  third-party-packages: true
