@@ -1,0 +1,40 @@
+header:
+  schema-version: 2.1.0
+  last-updated: '2026-09-23'
+  last-reviewed: '2026-09-23'
+  expiration-date: '2027-09-23'
+  project-url: 'https://github.com/GeeksikhSecurity/blueteaming-scripts'
+  license: 'https://github.com/GeeksikhSecurity/blueteaming-scripts/blob/main/LICENSE'
+project-lifecycle:
+  bug-fixes-only: false
+  core-maintainers:
+    - 'https://github.com/GeeksikhSecurity'
+  status: active
+contribution-policy:
+  accepts-pull-requests: true
+  accepts-automated-pull-requests: false
+  contributing-policy: 'https://github.com/GeeksikhSecurity/.github/blob/main/CONTRIBUTING.md'
+documentation:
+  security-policy: 'https://github.com/GeeksikhSecurity/blueteaming-scripts/blob/main/SECURITY.md'
+  vulnerability-reporting: 'https://github.com/GeeksikhSecurity/blueteaming-scripts/blob/main/SECURITY.md'
+security-artifacts:
+  threat-model:
+    threat-model-created: false
+  self-assessment:
+    self-assessment-created: false
+security-testing:
+  - name: 'OpenSSF Scorecard'
+    type: other
+    rulesets:
+      - default
+    integration:
+      adhoc: true
+      ci: true
+      release: false
+    results: {}
+    comment: 'Scorecard type is ''other'' — the security-insights-spec tool-type enum (SCA/SAST/container/secret/fuzzing/other) has no ''scorecard'' value. Tool homepage: https://github.com/ossf/scorecard'
+vulnerability-reporting:
+  accepts-vulnerability-reports: true
+  security-policy: 'https://github.com/GeeksikhSecurity/blueteaming-scripts/blob/main/SECURITY.md'
+  bug-bounty-available: false
+  comment: 'No email contact published — this repo reports vulnerabilities exclusively via GitHub Security Advisories (see security-policy).'
